@@ -15,9 +15,18 @@ img
 </header>
 <body>
 Below is the The Revenge of the Maiar Tournament Schedule
-<img id="zoom_01" src="http://jdc20181.github.io/HobbitResults/scheduleimage16.png" alt="some_text">
+<img  src="http://jdc20181.github.io/HobbitResults/scheduleimage16.png" alt="some_text">
 </body>
 <script>
-    $("#zoom_01").elevateZoom();
+    $(document).ready(function () {
+   $("img").toggle(function () {
+        var width = $(this).attr("width");
+        var height = $(this).attr("height");
+        // Add function for displaying
+    }, function () {
+      // Add function for closing
+    })
+})
+
 </script>
 </html>
