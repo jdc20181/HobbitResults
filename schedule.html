@@ -5,19 +5,47 @@
 <title>Hobbit Results!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-img
+.zoomInOn, .zoomInOff, .zoomOutOn, .zoomOutOff
 {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
+   width:34px;
+   height:34px;
+   display:block;
+   position:absolute;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+ 
+.zoomInOn, .zoomInOff
+{
+   background-image:url(../assets/zoom_in.png);
+   top:10px;
+   right:10px;
+}
+ 
+.zoomOutOn, .zoomOutOff
+{
+   background-image:url(../assets/zoom_out.png);
+   top:52px;
+   right:10px;
+}
+ 
+.zoomInOn, .zoomOutOn
+{
+   opacity:1;
+   cursor:pointer;
+}
+ 
+.zoomInOff, .zoomOutOff
+{
+   opacity:0.3;
+   cursor:auto;
 }
 </style>
 </header>
 <body>
 Below is the The Revenge of the Maiar Tournament Schedule
-<img  id="zoom_01" src="http://jdc20181.github.io/HobbitResults/scheduleimage16.png" alt="some_text" data-zoom-image="http://jdc20181.github.io/HobbitResults/scheduleimage16.png">
+<img  id="img1" src="http://jdc20181.github.io/HobbitResults/scheduleimage16.png" alt="some_text" data-elem="pinchzoomer">
 </body>
-<script>
-    $('#zoom_01').elevateZoom();
-</script>
 </html>
