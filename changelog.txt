@@ -1,0 +1,25 @@
+Change Log 
+
+Version 1.0
+
+-Results of Special CHS were added
+
+-The Series schedule was added. 
+
+Version 1.1
+
+-Fixed issues with the Schedule not viewable
+
+-Fixed issues with missing worlds for Special CHS results.
+
+Version 1.2
+
+-Added a Menu
+
+-Added Indy results (Beta)
+
+-Added Feedback link (better system coming soon!)
+
+-Added a application link in case someone wants to help maintain this!
+
+
